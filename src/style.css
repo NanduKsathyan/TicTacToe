@@ -1,0 +1,47 @@
+body {
+  background-color: #a6cf98;
+  font-family: fantasy;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.game-square {
+  background-color: #fa7070;
+  width: 50px;
+  height: 50px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 800;
+  font-size: 22px;
+}
+table {
+  background-color: #f2ffe9;
+  border-radius: 5px;
+}
+.reset {
+  background: #fff;
+  color: #383b3a;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 3px #ccc;
+  transition: transform 100ms;
+  font-size: 20px;
+  margin: 20px auto;
+  padding: 5px;
+  cursor: pointer;
+  font-family: fantasy;
+}
+
+.reset:hover {
+  transform: translateY(1px);
+  box-shadow: 0 2px #ccc;
+}
+
+.reset:active {
+  transform: translateY(3px);
+  box-shadow: 0 0 1px #ccc;
+}
